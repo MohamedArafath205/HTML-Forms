@@ -1,0 +1,143 @@
+*{
+    background: white;
+}
+.logo{
+    padding: 30px;
+}
+nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    color: black;
+    font-family: 'Fira code semibold';
+    padding: 30px;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: medium;
+}
+form{
+    padding-top: 20px;
+    background-color: lightpink;
+    max-width: 700px;
+    margin: 20px auto;
+    align-items: center;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.text1, .text2, .text7{
+    padding-top: 10px;
+    margin: 6px;
+    background-color: lightpink;
+    padding-right: 460px;
+}
+.text3{
+    padding-top: 10px;
+    margin: 6px;
+    background-color: lightpink;
+    padding-right: 470px;
+}
+.text4{
+    padding-top: 10px;
+    margin: 6px;
+    background-color: lightpink;
+    padding-right: 420px;
+}
+.text5{
+    padding-top: 10px;
+    margin: 6px;
+    background-color: lightpink;
+    padding-right: 455px;
+}
+.text6{
+    padding-top: 10px;
+    margin: 6px;
+    background-color: lightpink;
+    padding-right: 440px;
+}
+
+.text8{
+    padding-top: 10px;
+    margin: 6px;
+    background-color: lightpink;
+    padding-right: 360px;
+    padding-bottom: 5px;
+}
+input{
+    width: 400px;
+    height: 30px;
+    padding-right: 100px;
+    border: rgb(42, 40, 40);
+    border-radius: 3px;
+}
+h2{
+    background-color: lightpink;
+
+}
+
+button {
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+button a{
+    text-decoration: none;
+}
+
+select{
+    width: 505px;
+    height: 32px;
+    border: none;
+    border-radius: 3px;
+}
+.upload {
+    padding-top: 2px;  
+    background-color: lightpink;
+}
+
+.upload input{
+
+    background-color: lightpink;
+}
+
+.anchor_tag{
+    
+}
+
+.attendance{
+    background: lightpink;
+    color:rgb(42, 40, 40);
+}
+
+.attendance a{
+    color: black;
+    background-color: lightpink;
+    text-decoration: none;
+    position: relative;
+}
+
+.attendance a::after{
+    content: '';
+    height: 2px;
+    background: #ff004f;
+    position: absolute;
+    bottom: -6px;
+    width: 0;
+    left: 0px;
+    transition: .4s;
+}
+
+.attendance a:hover::after{
+    width: 100%;
+}
+
+p {
+    background: lightpink;
+}
