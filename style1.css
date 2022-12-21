@@ -16,7 +16,6 @@ h1{
     padding: 30px;
 }
 body{
-    font-family:'Times New Roman', Times, serif;
     text-align: center;
     font-size: medium;
 }
@@ -107,9 +106,6 @@ select{
     background-color: lightpink;
 }
 
-.anchor_tag{
-    
-}
 
 .attendance{
     background: lightpink;
@@ -140,4 +136,11 @@ select{
 
 p {
     background: lightpink;
+}
+
+#submit{
+    border-radius: 110px;
+    width: 200px;
+    height: 38px;
+    padding-left: 73px; 
 }
